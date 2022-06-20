@@ -1,9 +1,7 @@
-## Update (December 2021)
-I can no longer maintain this repository, mainly due to lack of time and hardware switch. Thank you everyone who helped me by contributing to this repository.
 
-# Dell Latitude E7470 macOS Big Sur (OpenCore)
+# Dell Latitude E7270 / Dell Latitude E7470 macOS Big Sur (OpenCore)
 
-## Important Notes for Latest release [OpenCore 0.7.4]
+## Important Notes for Latest release [OpenCore 0.8]
 You may encounter a keyboard mapping issue where your tilde key (~/`) is wrongly mapped to (§/±). The solution is simple, you can remap the key using native MacOS commands as follows:
 ```
 hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000064,"HIDKeyboardModifierMappingDst":0x700000035}]}'
@@ -72,19 +70,20 @@ Credit: https://superuser.com/a/465506/1046656
 <summary><strong>My Hardware</strong></summary>
 </br>
 
-| Model              | Dell Latitude E7470                        |
-|:-------------------|:-------------------------------------------|
-| Processor          | Intel Core i7-6600U                        |
-| Graphics           | Integrated Intel HD Graphics 520           |
-| Memory             | 8GB 2133MHz DDR4 SODIMM                    |
-| Display            | 14" WQHD (2560x1440) with ELAN Touchscreen |
-| Storage            | Micron 512GB M.2 SATA SSD                  |
-| WLAN + Bluetooth   | Intel Dual Band Wireless-AC 8260           |
-| Camera             | 1920x1080 FHD Webcam                       |
-| Fingerprint Reader | No                                         |
-| Soundcard          | Realtek ALC293                             |
-| Keyboard           | Backlit Keyboard                           |
-| Trackpad           | ALPS Touchpad                              |
+| Model              | Dell Latitude E7270 / E7470                        |
+|:-------------------|:---------------------------------------------------|
+| Processor          | Intel Core i7-6600U                                |
+| Graphics           | Integrated Intel HD Graphics 520                   |
+| Memory             | 12GB 2133MHz DDR4 SODIMM                           |
+| Display            | 14" WQHD (2560x1440) with ELAN Touchscreen         |
+| Storage            | Micron 512GB M.2 SATA SSD                          |
+| WLAN + Bluetooth   | Intel Dual Band Wireless-AC 8260                   |
+| Camera             | 1920x1080 FHD Webcam                               |
+| Fingerprint Reader | No                                                 |
+| Soundcard          | Realtek ALC293                                     |
+| Keyboard           | Backlit Keyboard                                   |
+| Trackpad           | ALPS Touchpad                                      |
+| SMBIOS             | MacBookPro13,1 (2016)                              |
 
 </details>
 
@@ -121,8 +120,8 @@ Credit: https://superuser.com/a/465506/1046656
 ## Current configuration
 
 Up to date on September 19, 2021.
-- macOS: Big Sur 11.4
-- OpenCore: 0.7.4
+- macOS: Big Sur 11.6.7
+- OpenCore: 0.8
 
 ## Installation
 
